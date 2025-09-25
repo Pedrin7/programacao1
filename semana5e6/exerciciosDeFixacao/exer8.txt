@@ -1,0 +1,12 @@
+O que são atributos? E o que são métodos?
+
+resposta:
+
+Os atributos em POO seria omo as "caracteristicas" dos objetos, como por exemplo, em uma classe chamado carro,
+poderia se ter o atributo cor, modelo, ano e etc.
+
+----------------------------------------
+
+Os métodos são as "ações/comportamentos" que esse objeto faz, como por exemplo, em uma classe chamado carro, 
+poderia se ter o método andar, parar e etc.
+

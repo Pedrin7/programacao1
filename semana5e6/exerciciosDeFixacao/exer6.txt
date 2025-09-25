@@ -1,0 +1,6 @@
+Pesquise (se necessário) e responda: o que é sobrecarga de métodos? 
+
+resposta: 
+
+sobrecarga de métodos(method overloading) é uma técnica da programação(orientada a objetos)
+    que permite a criação de múltiplos métodos com o mesmo nome dentro da mesma classe, porém, com paramêtros diferentes(seja na quantidade de parâmetros, tipo ou ambos).

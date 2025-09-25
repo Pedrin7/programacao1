@@ -1,0 +1,17 @@
+    //     ContaCorrente conta1 = new ContaCorrente();
+    //     ContaCorrente conta2 = new ContaCorrente();
+    //     ContaCorrente conta3 = new ContaCorrente();
+
+    //     conta1.setNumConta(1234);
+    //     conta2.setNumConta(8765);
+    //     conta3.setNumConta(3342);
+
+    //     conta1.setSaldoAtual(100.00);
+    //     conta2.setSaldoAtual(-98.00);
+    //     conta3.setSaldoAtual(3445.80);
+
+    //     System.out.println("Numero da conta 1: " + conta1.getNumConta() + "\nSaldo da conta 1: " + conta1.getSaldoAtual());
+    //     System.out.println("-----------------------------------");
+    //     System.out.println("Numero da conta 2: " + conta2.getNumConta() + "\nSaldo da conta 2: " + conta2.getSaldoAtual());
+    //     System.out.println("-----------------------------------");
+    //     System.out.println("Numero da conta 3: " + conta3.getNumConta() + "\nSaldo da conta 3: " + conta3.getSaldoAtual());

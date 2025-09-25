@@ -1,0 +1,14 @@
+O  que  é  e  para  que  serve um  método construtor? 
+Quais  as  duas características necessárias para que um método seja o construtor da classe? 
+Exemplifique sua resposta.
+
+resposta:
+
+O método construtor serve para inicializar e alocar os recursos necessários, definindo valores iniciais
+    para os atributos. Eles tem o mesmo nome da classe, não possuem tipo de retorno.
+
+As duas características são: ter exatamente o nome da classe e não ter retorno algum.
+
+
+
+

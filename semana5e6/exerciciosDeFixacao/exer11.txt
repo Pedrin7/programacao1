@@ -1,0 +1,19 @@
+Seja x  uma variável inteira. Pesquise e responda: 
+qual a diferença entre a utilização de x++  e ++x  no código? Exemplifique sua resposta.
+
+resposta:
+
+A utilização de ++x faz a adição de 1 na variável x (incremento) e na mesma
+linha esse valor já pode ser usado com essa modificação (ou seja, primeiro soma
+e depois usa). Já x++ também faz a adição de 1 na variável x, porém essa modificação
+ocorrerá após a utilização da variável (ou seja, usa e depois soma).
+
+Por exemplo:
+
+int x = 10;
+
+System.out.println(++x); //imprime 11
+
+System.out.println(x++); //imprime 11
+
+System.out.println(x); //imprime 12

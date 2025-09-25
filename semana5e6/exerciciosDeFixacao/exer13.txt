@@ -1,0 +1,26 @@
+Pesquisa (se necessário) e responda: o que é o método toString()? 
+Como seria um exemplo de método toString()  dentro da classe ContaCorrente  descrita no exercício 12?
+
+resposta:
+
+O método toString retorna uma representação no formato de texto de determinado
+objeto de uma classe. Por exemplo, na classe ContaCorrente (do exercício 12),
+poderemos fazer o método toString retornar de várias formas, uma delas pode ser
+vista abaixo:
+
+public String toString(){
+
+    return "Número da conta: " + getNumeroConta() + "Saldo
+    atual: " + getSaldoAtual();
+}
+Desta forma, quando fizermos:
+
+ContaCorrente c = new ContaCorrente();
+
+System.out.println(c);
+
+A impressão na tela será o retorno do método toString (não importando o conteúdo
+dos atributos). Caso não houvesse a implementação explícita do toString, a impressão
+na tela, neste exemplo, seria algo como ContaCorrente@CODIGO_HEXADECIMAL,
+mostrando onde a referência está alocada na memória.
+

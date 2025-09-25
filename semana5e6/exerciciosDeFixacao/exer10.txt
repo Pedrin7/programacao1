@@ -1,0 +1,6 @@
+O que são e para que servem os métodos de acesso de uma classe? Exemplifique sua resposta.
+
+resposta:
+
+São os metodos getters e setters que servem para acessar/controlar os acessos
+     aos atributos privados/publicos da classe.

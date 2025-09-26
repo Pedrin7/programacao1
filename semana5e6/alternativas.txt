@@ -1,0 +1,146 @@
+Exercicio 01:
+
+cabeçalho possui: VISIBILIDADE; TIPO DE RETORNO; ASSINATURA;
+
+Método público que recebe dois números inteiros, calcula e retorna a soma dos números.
+
+cabeçalho = public int somaNumeros(int n1, int n2)
+------------------------------------------------------------------------------------------------------------------
+
+Método público que recebe um valor do tipo double para alterar (setar) um atributo privado, armazenando este novo valor
+
+cabeçalho = public double setValor(double val)
+------------------------------------------------------------------------------------------------------------------
+
+Método público que retorna o valor de um atributo privado do tipo String
+
+cabeçalho = public String getValor()
+------------------------------------------------------------------------------------------------------------------
+
+alternativas: 
+a: x
+b: ok
+c: x
+d: x
+e: x
+
+------------------------------------------------------------------------------------------------------------------
+
+Exercicio 2:
+
+Para cada hóspede, um hotel mantém registro do nome do hóspede, do número do apartamento que ele será hospedado e do valor total das despesas dele durante a estadia. 
+As operações que acontecem com um hóspede são: realizar uma despesa, trocar de apartamento e a exibição dos dados do hóspede na tela.
+
+Qual seria um nome (identificador) adequado e significativo para a classe descrita acima? 
+Conforme a descrição quantos atributos possuem os objetos desta classe?
+Assinale a alternativa que responde as perguntas 1 e 2 acima, considerando apenas o que foi descrito.
+
+a: x
+b: x
+c: x
+d: x
+e: ok
+
+------------------------------------------------------------------------------------------------------------------
+
+Exercicio 3:
+
+Dada a classe abaixo:
+
+1. public class Candidato {
+2.    private int numero;
+3.    private String nome;
+4.    private String partido;
+5.    private int votos;
+6.    public Candidato ( int nu, String n, String p) {
+7.       numero = nu;
+8.       nome = n;
+9.       partido = p;
+10.   }
+11.   public void recebeVoto( )
+12.   {
+13.      votos ++;
+14.   }
+15. } // fim da classe
+Assinale quais das alternativas preenche corretamente as lacunas das questões abaixo:
+
+1. Os __ da classe Candidato são: numero, nome, partido e votos.
+
+2. Da linha 6 até a linha 10 temos o __ da classe Candidato.
+
+3. À exceção do método construtor, a classe Candidato tem apenas um método, cujo nome é: __.
+
+4. Quantos parâmetros tem o construtor da classe Candidato? __
+
+5. Para criar (instanciar) um objeto devo usar o operador: __
+
+6. Um objeto instanciado (um candidato) ocupa um espaço na memória, cujo endereço deve ser armazenado em uma variável objeto que deve ser declarada do tipo: __ 
+
+a: x
+b: x
+c: x
+d: x
+e: ok
+
+------------------------------------------------------------------------------------------------------------------
+
+Exercicio 4:
+
+Após executada a sequência de comandos abaixo, qual será o valor da variável num, na memória?
+
+int num = 0;
+int i = 3;
+int a = i + i * 5;
+num = a;
+num = num + 1;
+
+a: x
+b: x
+c: x
+d: x
+e: ok
+
+------------------------------------------------------------------------------------------------------------------
+
+Exercicio 5:
+
+Considere as seguintes afirmativas:
+
+(I)	Uma classe especifica como um objeto deve ser construído e como deve se comportar.
+(II) Uma classe pode ser comparada a uma planta arquitetônica residencial, onde as casas seriam os objetos.
+(III) A partir de uma classe podemos criar somente um objeto.
+(IV) Os objetos de uma mesma classe têm os mesmos atributos.
+
+Considerando as 4 afirmações acima, quais estão corretas?
+
+a: x
+b: x
+c: x
+d: x
+e: ok
+
+------------------------------------------------------------------------------------------------------------------
+
+Exercicio 6:
+
+Dada uma classe MaterialEscolar, onde o construtor tem a seguinte assinatura :
+
+public MaterialEscolar (int c, String n, int s)
+
+Verifique a validade das opções abaixo para criar (instanciar) um objeto da classe MaterialEscolar.
+
+(i).	m1 = new MaterialEscolar( ); x
+(ii).	MaterialEscolar m2 = new MaterialEscolar(“caneta”, 120, 2144 ); x
+(iii).	MaterialEscolar m3 = new MaterialEscolar (2144,“caderno”, 120 ); ok
+(iv).	MaterialEscolar mat;
+        mat = new MaterialEscolar (3321, “borracha”, 50 ); ok
+(v).	MaterialEscolar materialEscolar = new MaterialEscolar (1327, “lapis”, 60 );
+
+
+Considerando as 5 opções acima assinale a alternativa correta:
+
+a: x
+b: 
+c: 
+d: 
+e: x

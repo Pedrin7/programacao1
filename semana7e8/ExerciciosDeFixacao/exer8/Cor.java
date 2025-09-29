@@ -4,6 +4,10 @@ public class Cor {
 
     public int r, g ,b;
 
+    public Cor(){
+        
+    }
+
     public Cor(int r, int g, int b){
         this.r = r;
         this.g = g;
@@ -18,7 +22,23 @@ public class Cor {
         this.r = r;
     }
 
-    // terminar exercico 8
+    public int getG(){
+        return g;
+    }
 
-    
+    public void setG(int g){
+        this.g = g;
+    }
+
+    public int getB(){
+        return b;
+    }
+
+    public void setB(int b){
+        this.b = b;
+    }
+
+    public String imprime(){
+        return "R: "+getR()+ " G: " +getG()+ " B: " +getB();  
+    }
 }

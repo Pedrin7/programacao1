@@ -1,0 +1,4 @@
+Exercício 7. Escreva um trecho de código que solicita que 
+o usuário digite 1 valor inteiro positivo. 
+O trecho de código deve solicitar que ele digite um novo valor sempre que digitar um valor 
+0 ou negativo.

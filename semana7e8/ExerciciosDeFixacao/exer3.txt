@@ -1,0 +1,14 @@
+Pesquise sobre o comando do/while. 
+Depois disso, diferencie os comandos while, for e do/while, 
+descrevendo o funcionamento de cada um deles. Dê (no mínimo) um exemplo de cada.
+
+Resposta:
+
+O comando do while, ao invés do while, sempre roda 01 vez antes de entrar no LOOP
+    while.
+
+A diferença entre while e do/while é está, no do/while, 
+    o código é sempre executado no minimo 01 vez antes de entrar no loop, já o while, 
+        só executa se a condição for verdadeira.
+
+A diferença do do/while e while pro for é a iteração.

@@ -1,0 +1,6 @@
+Exercício 4. O que faz a instrução break? Dê (no mínimo) um exemplo de utilização.
+
+Resposta:
+
+A instrução BREAK quebra o loop, é muito IMPRESCINDIVEL a utilização dele com swtich case e
+    é usado em loops, como for, while e do/while.

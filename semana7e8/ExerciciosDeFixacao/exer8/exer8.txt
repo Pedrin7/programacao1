@@ -1,0 +1,3 @@
+Exercício 8. Suponha a existência de uma classe chamada Cor e uma classe chamada Caneta. 
+Crie uma classe Estojo, que possui uma cor (objeto do tipo Cor) e capacidade de armazenar 2 canetas (objetos do tipo Caneta). 
+Inclua na sua classe um construtor de Estojo que receba a cor e as canetas por parâmetro, bem como os métodos de acesso dos atributos cor e caneta.

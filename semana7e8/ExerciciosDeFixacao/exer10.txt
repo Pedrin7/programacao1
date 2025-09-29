@@ -1,0 +1,7 @@
+Exercício 10. Os comandos for, if e while possuem a possibilidade de utilização ou não das chaves.
+Quando podemos utilizar estes comandos sem as chaves e quando devemos utilizá-los com as chaves?
+
+resposta:
+
+    Só podemos usar os comandos sem as chaves em java quando iremos dar só uma instrução
+    para o if/for ou while, caso passe de 01 instrução, é imprensindivel usar as chaves.

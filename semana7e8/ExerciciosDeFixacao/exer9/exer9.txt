@@ -1,0 +1,4 @@
+Exercício 9. Levando em consideração o contexto do exercício 8, 
+sabendo que a classe Cor possui 3 atributos (r, g e b) que são recebidos por parâmetro no construtor e 
+a classe Caneta possui uma marca (do tipo String) e uma cor (objeto do tipo Cor) que também são recebidos por parâmetro no construtor, 
+como ficaria o método main para a criação de um objeto do tipo Estojo que recebe todas as informações necessárias via Teclado?

@@ -1,0 +1,16 @@
+De posse delas, faça o que se pede na abaixo:
+
+a) crie uma classe chamada Banana, que herda Fruta e possui um tipo. Implemente os métodos de acesso para este atributo (GET e SET) OK
+
+b) crie uma classe Melancia, que herda fruta e possui um preço adicional e um atributo booleano que indica se é ou não época deste tipo de fruta. Crie os métodos de acesso para os atributos. Crie também um método chamado calculaPrecoFinal, que retorna o valor final da melancia: se for época da fruta, retorna o preço normal, caso contrário, retorna o valor com o imposto acrescentado OK
+
+c) crie uma classe chamada Programador, que herda Pessoa e possui um atributo que indica a linguagem de programação preferida pelo programador. Crie os métodos de acesso deste atributo OK
+
+d) crie a classe Aluno, que herda Pessoa e possui um atributo nota. Crie os métodos de acesso para este atributo OK
+
+e) nas duas subclasses criadas, sobrescreva o método imprimeDados, implementando de acordo com as informações de cada classe OK
+
+f) crie uma classe de Teste. Crie o método main nesta classe, e neste método crie uma Banana, uma Melancia, um Programador e um Aluno. Acesse os métodos para verificar seu funcionamento. OK
+
+g) crie, no método main, uma Pessoa p. Conforme a opção do usuário (o usuário digita via teclado), instancie a Pessoa para um Programador (caso digite 1) ou um Aluno (caso
+digite 2). Se a Pessoa for um Programador, imprima sua linguagem de programação preferida. Caso a Pessoa seja um Aluno, imprima a nota referente a este aluno

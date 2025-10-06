@@ -13,4 +13,4 @@ e) nas duas subclasses criadas, sobrescreva o método imprimeDados, implementand
 f) crie uma classe de Teste. Crie o método main nesta classe, e neste método crie uma Banana, uma Melancia, um Programador e um Aluno. Acesse os métodos para verificar seu funcionamento. OK
 
 g) crie, no método main, uma Pessoa p. Conforme a opção do usuário (o usuário digita via teclado), instancie a Pessoa para um Programador (caso digite 1) ou um Aluno (caso
-digite 2). Se a Pessoa for um Programador, imprima sua linguagem de programação preferida. Caso a Pessoa seja um Aluno, imprima a nota referente a este aluno
+digite 2). Se a Pessoa for um Programador, imprima sua linguagem de programação preferida. Caso a Pessoa seja um Aluno, imprima a nota referente a este aluno OK

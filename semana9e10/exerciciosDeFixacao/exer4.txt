@@ -1,0 +1,14 @@
+Exercício 4. Como identificamos, no UML, a visibilidade de um atributo ou método?
+
+Resposta:
+
+    Para identificar atributos/métodos são PRIVADOS/PÚBLICOS no UML, basta ver se começa com - ou com +
+
+    Se começa com -, o atributo/método é privado.
+    Se começa com +, o atributo/método é público.
+
+    OBS: existe outros dois sinais que podemos validar e identificar um método, seriam eles:
+
+    Se começa com #, o atributo/metodo é protegido(protected)
+    Se começa com ~, o atributo/metodo pode ser acessado para membros do memso pacote.
+        OBS: por padrão, no java, a visibilidade padrão é o ~.

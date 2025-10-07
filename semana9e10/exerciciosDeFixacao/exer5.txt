@@ -1,0 +1,6 @@
+Exercício 5. No código, como dizemos que uma classe herda outra classe?
+
+Resposta:
+
+    Após o nome da classe, se coloca extends, assim a classe FILHA herda os atributos e os métodos
+        da classe PAI

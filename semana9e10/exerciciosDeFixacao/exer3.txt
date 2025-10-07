@@ -1,0 +1,71 @@
+Exercício 3. Qual a diferença entre sobrescrita e sobrecarga?
+
+Resposta:
+    Sobrescrita:
+        A sobrescrita está relacionada a Herança, seria quando uma classe filha fornece uma implementação 
+            especifica para um método que já existe na sua classe pai. A assinatua do método deve ser IDÊNTICA.
+
+            OBS: @Override para indicar ao compilador que estamos sobrescrevendo um método.
+            
+            Exemplo:
+            // CLASSE PAI (SUPERCLASSE)
+            class Animal {
+                public void fazerSom() {
+                    System.out.println("O animal faz um som genérico.");
+                }
+            }
+
+            // CLASSE FILHA (SUBCLASSE)
+            class Cachorro extends Animal {
+                // Sobrescrevendo o método da classe pai
+                @Override
+                public void fazerSom() {
+                    System.out.println("O cachorro late: Au au!");
+                }
+            }
+
+            // OUTRA CLASSE FILHA
+            class Gato extends Animal {
+                // Sobrescrevendo com um comportamento diferente
+                @Override
+                public void fazerSom() {
+                    System.out.println("O gato mia: Miau!");
+                }
+            }
+
+   ---------------------------------------------------------------------------------- 
+    Sobrecarga:
+
+        Acontece dentro da mesma classe(sempre dentro de uma UNICA classe), 
+            é quando tem vários MÉTODOS com o mesmo nome, porém, com diferentes parâmetros.
+        
+        Exemplo:
+        // ACONTECE TUDO DENTRO DA MESMA CLASSE
+        class Calculadora {
+
+            // Versão 1: Soma dois inteiros
+            public int somar(int a, int b) {
+                System.out.println("Somando dois inteiros...");
+                return a + b;
+            }
+
+            // Versão 2: Soma três inteiros (SOBRECARGA)
+            public int somar(int a, int b, int c) {
+                System.out.println("Somando três inteiros...");
+                return a + b + c;
+            }
+            
+            // Versão 3: Soma dois doubles (SOBRECARGA)
+            public double somar(double a, double b) {
+                System.out.println("Somando dois doubles...");
+                return a + b;
+            }
+        }
+
+    // Como usar:
+    // Calculadora calc = new Calculadora();
+    // calc.somar(5, 3);       // Chama a versão 1
+    // calc.somar(5, 3, 2);    // Chama a versão 2
+    // calc.somar(5.5, 3.2);   // Chama a versão 3
+
+    

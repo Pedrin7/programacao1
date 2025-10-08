@@ -1,0 +1,11 @@
+Exercício 7. Diferencie upcasting de downcasting.
+
+Resposta:
+
+   Upcasting:
+        É o processo de atribuir um objeto de uma subclasse(filho) a uma referencia do tipo de
+            sua superclasse(pai). Seria como olhar para um objeto especifico de uma maneira mais completa.
+
+    Downcasting:
+        É o processo de converter uma referência que é do tipo de uma superclasse(pai) para uma de
+            suas subclasses(filho). É como tentar olhar para um objeto genérico de uma forma mais especifíca.

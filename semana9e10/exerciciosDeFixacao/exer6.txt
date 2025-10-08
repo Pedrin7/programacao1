@@ -1,0 +1,19 @@
+Exercício 6. Suponha que uma classe Federal herda uma outra classe Deputado. 
+Sabendo que a classe Federal possui o método public void analisaProjeto(), 
+complete o trecho de código abaixo para que seja possível, através da referência dep,
+acessar este método.
+
+Deputado dep = new Federal();
+Resposta:
+
+    Federal dep = new Federal();
+    
+    ou usando polimorfismo abaixo:
+
+    Federal fed = (Federal) dep;
+
+dep.analisaProjeto();
+ou
+fed.analisaProjeto(); // assim usando polimorfismo
+
+
